@@ -3,4 +3,4 @@
 
 Built using raw html, css and JavaScript.
 
-A demo of the site can be found here [here](https://artorias-calc.netlify.app/).
+A demo of the site can be found [here](https://artorias-calc.netlify.app/).
