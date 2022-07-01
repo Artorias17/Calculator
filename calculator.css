@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 2vh 0;
+    height: 96vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    border: black solid;
+    padding: 1vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    text-align: center;
+    color: rgba(200, 200, 200, 0.7);
+    font-family: monospace;
+    font-size: 4.5vh;
+    padding-bottom: 0.5vh;
+    border-bottom: solid black;
+    margin: 0.5vh;
+}
+
+.number-field {
+    text-align: end;
+    font-size: 5vh;
+    font-family: monospace;
+    font-style: normal;
+    color: rgba(0, 155, 255, 0.7);
+    margin: 0.5vh;
+}
+
+.top {
+    color: rgba(10, 200, 120, 0.7);
+    font-size: 2.5vh;
+}
+.button-box {
+    display: flex;
+    flex-direction: column;
+    border-top: solid black;
+    padding-top: 1vh;
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.25vh;
+    padding: 0.1vh;
+    width: 10vh;
+    height: 10vh;
+    font-family: monospace;
+    font-size: 2.5vh;
+    border: black solid;
+}
+
+.btn:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: translateY(0.2vh);
+}
+
+.btn:disabled {
+    background: rgba(150, 150, 150, 0.7);
+    color: rgba(160, 160, 160, 0.7);
+}
+
+.btn:disabled:hover {
+    background: rgba(150, 150, 150, 0.7);
+    color: rgba(160, 160, 160, 0.7);
+    cursor: default;
+}
+.operator {
+    background: rgba(215, 120, 0, 0.7);
+}
+
+.operator:hover {
+    background: rgba(255, 170, 0, 0.7);
+}
+
+.backspace {
+    background: rgba(100, 0, 200, 0.7);
+}
+
+.backspace:hover {
+    background: rgba(150, 0, 200, 0.7);
+}
+
+.reset {
+    flex: 2;
+    background: rgba(200, 0, 0, 0.7);
+}
+
+.reset:hover {
+    background: #d23232;
+}
+
+.equal {
+    background: rgba(120, 170, 30, 0.7);
+}
+
+.equal:hover {
+    background: rgba(140, 210, 40, 0.7);
+}
+
+.point {
+    background: rgba(0, 100, 255, 0.7);
+}
+
+.point:hover {
+    background: rgba(0, 150, 255, 0.7);
+}
+
+.negate {
+    background: rgba(200, 30, 200, 0.7);
+}
+
+.negate:hover {
+    background: rgba(260, 60, 260, 0.7);
+}
+
+.random {
+    flex: 2;
+    background: rgba(130, 60, 40, 0.7);
+}
+
+.random:hover {
+    background: rgba(200, 100, 60, 0.7);
+}
+
+.log {
+    background: rgba(0, 120, 140, 0.7);
+}
+
+.log:hover {
+    background: rgba(0, 170, 200, 0.7);
+}
